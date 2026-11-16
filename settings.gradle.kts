@@ -6,7 +6,7 @@ plugins {
 rootProject.name = "apktool-cli"
 include(
     "brut.j.common", "brut.j.util", "brut.j.xml", "brut.j.yaml", "brut.j.zip",
-    "brut.apktool:apktool-lib", "brut.apktool:apktool-cli"
+    "brut.apktool:apktool-lib", "brut.apktool:apktool-cli", "brut.apktool:apktool-gui"
 )
 
 dependencyResolutionManagement {
